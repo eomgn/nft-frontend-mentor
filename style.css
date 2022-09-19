@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: #0c192c;
+   font-family: 'Roboto', sans-serif;
+}
+
+.container {
+   min-width: 320px;
+   height: 100vh;
+   margin: auto;
+
+   background-color: #0c192c;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.box {
+   padding: 30px;
+
+   max-width: 350px;
+   height: auto;
+
+   border-radius: 10px;
+   color: #ffff;
+
+   box-shadow: 20px 30px 100px black;
+}
+
+.box .ethereum-logo img {
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+}
+
+.box h1 {
+   margin: 22px 0;
+   font-size: 25px;
+}
+
+.box p {
+   font-size: 16px;
+   line-height: 25px;
+   color: #7b90ad;
+
+   margin-bottom: 15px;
+}
+
+.details {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 15px;
+}
+
+.details .eth-icon {
+   color: #25e6eb;
+   display: flex;
+   align-items: center;
+
+   gap: 5px;
+}
+
+.details div:nth-child(1) {
+   font-weight: bold;
+}
+
+.details div:nth-child(2) {
+   color: #7b90ad;
+}
+
+.user {
+   padding-top: 18px;
+
+   color: #7b90ad;
+
+   border-top: 0.01px solid #7b90ad;
+
+   display: flex;
+   justify-content: left;
+   align-items: center;
+
+   gap: 15px;
+}
+
+.user img {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   border: 2px solid #ffffff;
+}
+
+.user a {
+   color: #fff;
+   text-decoration: none;
+}
+
+.user a:hover {
+   text-decoration: underline;
+}
